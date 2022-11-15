@@ -694,7 +694,14 @@ ul {
   border-radius: 4px;
   background: var(--main-unit);
   margin-right: 12px;
+  color: var(--main-light);
+  padding: 16px 15px;
 }
+.subscription-input:focus {
+  outline:none;
+  border-color: var(--main-light); 
+}
+
 
 .subscription-input-icon 
 {
@@ -753,6 +760,13 @@ ul {
   letter-spacing: 0.03em;
   color: var(--main-dark);
   margin-bottom: 12px;
+}
+.textarea:placeholder {
+  color: var(--main-color-font);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
 }
 
 /*Form*/
@@ -822,7 +836,7 @@ ul {
     }
 
 .checkbox-input {
-appearance: none;
+  appearance: none;
 }
 
 .checkbox-label {
@@ -853,8 +867,8 @@ appearance: none;
 
 .checkbox-input:checked + .checkbox-label::before {
   border: 0.2px solid var(--secondary-color);
-background-image: url(../images/icons/checkbox\ svg.svg);
-background-color: var(--secondary-color);
-background-size: contain;
-background-position: center;
+  background-image: url(../images/icons/checkbox\ svg.svg);
+  background-color: var(--secondary-color);
+  background-size: contain;
+  background-position: center;
 }
