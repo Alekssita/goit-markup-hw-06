@@ -326,7 +326,7 @@ img {
 /*Чим ми займаємося*/
 .section-title-activity {
   position: relative;
-}
+  }
 
 .section-title-activity-name {
   position: absolute;
@@ -344,7 +344,10 @@ img {
   background: rgba(47, 48, 58, 0.8);
 }
 
+.list-activited
+
 /*Наша команда*/
+
 
 .team-title,
 .section-title {
@@ -767,6 +770,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+  color: tomato
 }
 
 /*Form*/
